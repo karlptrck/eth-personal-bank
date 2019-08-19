@@ -24,7 +24,7 @@ The simple smart contract has the below functionalities:
 4. Deploy the contract using Remix and MetaMask
 5. Modify ```chequeSigner.js line 6``` with the deployed contract address
 6. Modify the parameters accordingly like the to address at line 9
-7. Run ```node chequeSigner.js``` and check the signature output
+7. Run ```node chequeSigner.js``` to create and sign a cheque payment
 
 Sample output:
 
