@@ -14,18 +14,22 @@ contract('PersonalBank', ([ owner, receiver ]) => {
     })
 
     it('should be able to sign cheque', async () => {
-
+        // TODO
     })
 
     it('should be able to encash cheque', async () => {
-
+        // TODO
     })
 
     it('not be able to encash cheque that was already encashed', async () =>{
-
+        // TODO
     })
 
     it('not be able to encash cheque on other contract bank address', async () => {
+        // TODO
+    })
 
+    it('not be able to encash with bad signature', async () => {
+        // TODO
     })
 })
