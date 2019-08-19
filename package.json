@@ -1,0 +1,27 @@
+{
+  "name": "personal-bank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chequeSigner.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ethers": "^4.0.33"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlptrck/eth-personal-bank.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karlptrck/eth-personal-bank/issues"
+  },
+  "homepage": "https://github.com/karlptrck/eth-personal-bank#readme"
+}
