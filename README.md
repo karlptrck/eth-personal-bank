@@ -19,12 +19,12 @@ The simple smart contract has the below functionalities:
 ## Steps to test
 
 1. Clone or download this repository
-2. Create .env file with entry of PRIVATE_KEY=ENTER YOUR PRIVATE KEY HERE
-3. Run npm install
+2. Create ```.env``` file with entry of ```PRIVATE_KEY=ENTER_YOUR_PRIVATE_KEY_HERE```
+3. Run ```npm install```
 4. Deploy the contract using Remix and MetaMask
 5. Modify chequeSigner.js line 6 with the deployed contract address
 6. Modify the parameters accordingly like the to address at line 9
-7. Run node chequeSigner.js and check the signature output
+7. Run ```node chequeSigner.js``` and check the signature output
 
 Sample output:
 
