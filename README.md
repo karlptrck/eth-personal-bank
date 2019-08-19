@@ -26,4 +26,8 @@ The simple smart contract has the below functionalities:
 6. Modify the parameters accordingly like the to address at line 9
 7. Run node chequeSigner.js and check the signature output
 
+Sample output:
 
+![](https://user-images.githubusercontent.com/47552061/63294649-da03a400-c298-11e9-911c-030fda70625b.png)
+
+8. Call the cashCheque function using the receiver account and pass the parameters generated above.
