@@ -31,3 +31,5 @@ Sample output:
 ![](https://user-images.githubusercontent.com/47552061/63294649-da03a400-c298-11e9-911c-030fda70625b.png)
 
 8. Call the cashCheque function using the receiver account and pass the parameters generated above.
+9. Wait for the transaction to be confirmed and check the balance of both accounts to verify.
+10. Done
