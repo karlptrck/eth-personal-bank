@@ -16,5 +16,14 @@ The simple smart contract has the below functionalities:
 | fallback  | payable function that accepts ether to fund the contract | n/a | n/a
 | cashCheque  | called by the fund receiver to encash cheque | to (address payable) <br/> amount (uint256)<br/> chequeId (bytes32) <br/> r (bytes32) <br/> s (bytes32) <br/> v (uint8) | n/a
 
+## Steps to test
+
+1. Clone or download this repository
+2. Create .env file with entry of PRIVATE_KEY=ENTER YOUR PRIVATE KEY HERE
+3. Run npm install
+4. Deploy the contract using Remix and MetaMask
+5. Modify chequeSigner.js line 6 with the deployed contract address
+6. Modify the parameters accordingly like the to address at line 9
+7. Run node chequeSigner.js and check the signature output
 
 
